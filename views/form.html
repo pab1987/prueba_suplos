@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/stylesForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Crear proceso / Evento participación cerrada</h3>
+        <div class="title-line"></div>
+        <div class="button-container">
+            <button class="button info-button">Información básica</button>
+            <button class="button cronograma-button">Cronograma</button>
+        </div>
+        <div class="button-line"></div>
+        <h3>Información básica</h3>
+        <form id="myForm" action="../index.php" method="post">
+
+            <div class="form-group">
+                <label for="objeto">Objeto:</label>
+                <input type="text" id="objeto" name="objeto" placeholder="Ingrese el objeto" required>
+
+                <br>
+                <label for="actividad">Actividad:</label>
+                <div class="search-container">
+
+                </div>
+
+
+
+            </div>
+            <div class="form-group">
+                <label for="descripcion">Descripción / Alcance:</label>
+                <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese la descripción o alcance"
+                    required>
+            </div>
+            <div class="form-group-horizontal">
+                <label for="moneda">Moneda:</label>
+                <div class="input-container">
+                    <select id="moneda" name="moneda" required>
+                        <option value="COP">COP</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="form-group-horizontal">
+                <label for="presupuesto">Presupuesto:</label>
+                <input type="text" id="presupuesto" name="presupuesto" placeholder="Ingrese el presupuesto" required>
+            </div>
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+    <script src="../js/scriptForm.js"></script>
+</body>
+
+</html>
