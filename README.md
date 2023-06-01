@@ -1,6 +1,6 @@
 # Prueba desarrolladores FullStack PHP-VUE
 
-![Prueba desarrolladores FullStack PHP-VUE](./img/php.jpeg){: width="400" height="300"}
+![Prueba desarrolladores FullStack PHP-VUE](./img/php.jpeg)
 
 ## Descripción
 
